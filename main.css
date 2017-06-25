@@ -1,0 +1,166 @@
+/**,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+html,body {
+	height: 100%;
+	width: 100%;
+	font-family: sans-serif;
+}
+
+
+.wrapper {
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+.box {
+	height: 500px;
+	background-color: #e7e7e7;
+	border: 1px solid rgba(0,0,0,0.87);
+}*/
+.container{
+
+	margin-top: 60px;
+  margin-bottom: 16px;
+}
+#header{
+	background-color: #4267b2;
+	color: white;
+}
+/*footer{
+  background-color: rgba(0,0,0,0.87);
+  height:40px;
+}*/
+#wrapper{
+	margin-top: 16px;
+  margin-bottom: 16px;}
+
+
+#main,
+#menu,
+#sidebar{
+	height: 600px;
+	background-color: #e9ebee;
+}
+ #header .white-text{
+	color:white;
+}
+#header ul .glyphicon{
+	font-size:20px;
+	color: black;
+	}
+/*#top{
+	padding :70px;
+}*/
+.List-para{
+	padding:20px 15px 0px 15px;
+}
+.panel-body .glyphicon{
+	margin-left:10px;
+	margin-right:4px;
+}
+.text-post{
+	margin-bottom:15px;
+	margin-top:0px;
+	color:#444444;
+}
+.k{
+	padding-left:5px;
+font-weight: 400;
+}
+.friendly-text{
+	padding-top: 0px;
+	padding-left: 5px;
+position: relative;
+bottom: 15px;
+	/*font-weight: bold;*/
+}
+.form-control{
+	height:25px !important;
+	margin-left:-18px;
+	margin-top: 5px;
+}
+#header{
+	height:42px;
+}
+.btn{
+	height:25px;
+	margin-left: -44px;
+	margin-top: 4px;
+}
+.navbar-form > button{
+	padding-top: 2px;
+}
+.pic-text{
+	padding-left: 15px;
+	color:black;
+}
+#status{
+	border-bottom: 1px solid #e5e5e5;
+padding: 10px 0 1px 0;
+position: relative;
+z-index: 1;
+border-top:none;
+background-color: #fff;
+}
+.breadcrumb {
+    padding: 2px 15px;
+    margin-bottom: 5px;
+		background-color: #fff;
+
+}
+.st-rgt{
+	padding-right: 5px;
+}
+.form1-control{
+	height:45px!important;
+
+}
+.comment-correct{
+	margin:0 0 0;
+}
+#main{
+	overflow: auto;
+	background:none;
+	}
+#main::-webkit-scrollbar{
+	display:none;
+}
+.list-group-item{
+	background-color: white;
+}
+#sidebar{
+	overflow: auto;
+}
+#sidebar::-webkit-scrollbar{
+	display:none;
+}
+.nav .upbdg{
+vertical-align: top;
+font-size:10px;
+position: absolute;
+z-index: 3;
+right: 10px;
+top: 10px;
+opacity: 0.8;
+background-color: red;
+	}
+	.nav .topbdg{
+		position: relative;
+		z-index: 1;
+	}
+.image-post{
+	margin-bottom: 15px;
+}
+.txt-post{
+	margin-bottom: 15px;
+	margin-top: 0px;
+}

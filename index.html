@@ -1,0 +1,622 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Friendly-Facebook</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body id="Top">
+    <div class= "container">
+      <!--header-->
+      <nav class="navbar navbar-default navbar-fixed-top" id="header">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- header design with icons -->
+        <a class="navbar-brand white-text" href="#"><span ><img src="icons/ff.png" class="friendly-text" height="45" width="35" style="margin-left:150px;"></span> </a>
+      <!-- <a class="navbar-brand white-text" href="#"><span class="friendly-text">Friendly</span></a> -->
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search friendly" size="60px">
+      </div>
+        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+      </form>
+      <ul class="nav navbar-nav navbar-right" style="margin-right:150px;">
+        <li><a href="#" class="white-text"></a></li>
+        <li><a href="#" class="white-text"><img src="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-9/14713591_726139330873564_7581743209211727488_n.jpg?oh=34ee99c993a2bbf8d9cd820522b7ebde&oe=59C4C0ED" height="25" width="25"  style="border-radius:10%";>  <span class= "k">Karuna</span></a></li>
+
+        <!-- <li><a href="#" class="white-text">karuna</a></li> -->
+         <li title = "home"><a href="#" class="white-text"><span>Home</span></a></li>
+
+        <!-- <li title = "home"><a href="#" class="white-text"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li> -->
+        <li title = "user"><a href="#" class="white-text"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>
+        <li title="msg"><a href="#" class="white-text"><span class="glyphicon glyphicon-envelope topbdg" aria-hidden="true" style="color:white;"></span><span class="badge upbdg" >2</span></a></li>
+        <li title = "noti"><a href="#" class="white-text"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+        <li><a href="#" class="white-text"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a></li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle white-text" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Create page</a></li>
+            <li><a href="#">Activity log</a></li>
+            <li><a href="#">create ad</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Log out</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!--headeer-->
+      <div class="container-fluid" id="wrapper">
+        <!-- body starts now  -->
+        <div class="row">
+          <!-- first colume -->
+                            <div class="hidden-xs  col-sm-4 col-md-3"><div id="menu">
+                                <ul class="nav nav-stacked">
+                                    <li role="presentation"><a href="#"><img src="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-9/14713591_726139330873564_7581743209211727488_n.jpg?oh=34ee99c993a2bbf8d9cd820522b7ebde&oe=59C4C0ED" height="25" width="25"  style="border-radius:10%";><span class="pic-text">Karuna Varshney</span></a></li>
+                                    <li role="presentation"><a href="#"><img src="icons/news.png" height="20" width="25"><span class="pic-text">News Feed <span class="badge pull-right">...42</span></span></a></li>
+                                    <li role="presentation"><a href="#"><img src="icons/msg.png" height="20" width="25"><span class="pic-text">messenger<span class="badge pull-right">...7</span></span></a></li>
+                                  </ul>
+                                  <ul class="nav nav-stacked">
+                                    <p class=" List-para"> <b>Shortcut</b></p>
+                                      <li role="presentation"><a href="#"><img src="icons/group.jpeg" height="20" width="25"><span class="pic-text">deepraj party</span></a></li>
+                                      <li role="presentation"><a href="#"><img src="icons/calender.png" height="20" width="25"><span class="pic-text">Events</span></a></li>
+                                      <li role="presentation"><a href="#"><img src="icons/offer.jpeg" height="20" width="25"><span class="pic-text">Offers</span></a></li>
+                                    </ul>
+                                    <ul class="nav nav-stacked">
+                                      <p class=" List-para"><b> Explore</b></p>
+                                        <li role="presentation"><a href="#"><img src="icons/on_this_day.png" height="20" width="25"><span class="pic-text">On This Day</span></a></li>
+                                        <li role="presentation"><a href="#"><img src="icons/poke.png" height="20" width="25"><span class="pic-text">Poke<span class="badge pull-right">4</span></span></a></li>
+                                        <li role="presentation"><a href="#"><img src="icons/pages.jpeg" height="20" width="25"><span class="pic-text">Pages</span></a></li>
+                                      </ul>
+                                        <p class=" List-para"> Create</p>
+                                      <ul class="nav nav-pills">
+                                          <li role="presentation"><a href="#">Ad.</a></li>
+                                          <li role="presentation"><a href="#">Group</a></li>
+                                          <li role="presentation"><a href="#">Pages</a></li>
+                                        </ul>
+                                </div></div>
+                      <!-- second column           -->
+            <div class=" col-xs-12 col-sm-8 col-md-6">
+              <div id="main">
+                <!-- status post -->
+                          <div class="panel panel-default">
+                                <div class="panel-heading" id ="status">
+                                  <!-- post heading -->
+                                  <ol class="breadcrumb">
+                                    <li><a href="#"><img src="icons/camera.png" class="st-rgt" height="20" weight="20"><span><b>photo/Video</b></span></a></li>
+                                    <li><a href="#"><img src="icons/viedo.png" class="st-rgt" height="20" weight="20"><span><b>Live-Video</b></span></a></li>
+                                    <li><a href="#"><img src="icons/album.png" class="st-rgt" height="20" weight="20"><span><b>Photo-Album</b></span></a</li>
+                                  </ol>
+                                      <!-- <h3 class="panel-title"><a href="#">Karuna</a></h3> -->
+                                  </div>
+                                  <!-- post body -->
+                                  <div class="panel-body">
+                                    <div><img src="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-9/14713591_726139330873564_7581743209211727488_n.jpg?oh=34ee99c993a2bbf8d9cd820522b7ebde&oe=59C4C0ED" height="50" width="55" style="margin-bottom:15px;"><span><input placeholder="What's in your mind" style="border:none;padding-left:15px;font-size:20px;"></span>
+                                    </div>
+                                      </div>
+                                    <div class="panel-footer" style="padding-bottom:20px;">
+                                                    <button class="btn btn-default pull-right btn btn-primary" type="submit" style="margin-right:5px; padding:2px 12px;"><b>Post</b></button>
+                                                    <div class="btn-group pull-right">
+                                                        <button class="btn btn-default btn-xs dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-right:50px;">
+                                                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span><!--for the icon--><b>Friends</b> <span class="caret"></span>
+                                                        </button>
+                                                        <ul class="dropdown-menu">
+                                                      <li><p style="padding-left:10px;"> who could see this</p></li>
+                                                      <li><span class="glyphicon glyphicon-globe" aria-hidden="true" style="font-size:20px; color:black;"><span style="color:black;"><B style="padding-left:20px;border-bottom:5px;">Public</b></span></span></li>
+                                                        <li><span class="glyphicon glyphicon-user" aria-hidden="true" style="font-size:20px; color:black;"><span style="color:black;"><B style="padding-left:20px;">Friends</b></span></span></li>
+                                                        </ul>
+                                                      </div>
+                                                      <span class="glyphicon glyphicon-user" aria-hidden="true" style="margin-right:20px;font-size:25px;">
+                                                        <span><img src="icons/greysmily.png" height="22px" width="22px" style="border-radius:50%;"></span>
+                                                        <span class="glyphicon glyphicon-map-marker" aria-hidden="true">
+
+                                    </div>
+                           </div>
+                           <!-- fisrt post -->
+                                     <div class="panel panel-default">
+                                          <div class="panel-heading">
+                                            <!-- haeding image 1 -->
+                                            <div class="media" style="margin-top:0px;">
+                                             <div class="media-left">
+                                               <a href="#">
+                                                 <img class="media-object" src="icons/bal.jpg" height="32px" width="32px">
+                                               </a>
+                                              </div>
+                                             <div class="media-body">
+                                               <!-- <h4 class="media-heading">Pooja Singh</h4> -->
+                                               <p class= "comment-correct"><span><a href="#">Musk doza</a></span></p>
+                                                 <div>
+                                                   <small>
+                                                   <span><a href="#">4 hrs . </a><span class="glyphicon glyphicon-globe"></span>
+
+                                                 </small>
+                                                 </div>
+                                             </div>
+                                           </div>
+
+                                          </div>
+                                           <div class="panel-body">
+                                             <div class="embed-responsive embed-responsive-4by3">
+                                                  <iframe class="embed-responsive-item" src="https://media4.giphy.com/media/ZqlvCTNHpqrio/giphy.gif"></iframe>
+                                                </div>
+                                             <div>
+                                               <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>like</span>
+                                               <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>comment</span>
+                                             </div>
+                                           </div>
+                                             <div class="panel-footer">
+                                               <div class="media">
+                                              <div class="media-left">
+                                                <a href="#">
+                                                  <img class="media-object" src="https://scontent.fagr1-1.fna.fbcdn.net/v/t31.0-8/15418432_1275291705866633_2457366017704825239_o.jpg?oh=d8bf1862d737f8da40628075d2701986&oe=59D37B0E" width="32" height="32">
+                                                </a>
+                                               </div>
+                                              <div class="media-body">
+                                                <!-- <h4 class="media-heading">Pooja Singh</h4> -->
+                                                <p class= "comment-correct"><span><a href="#">Pooja Singh</a></span> love minions</p>
+                                                  <div>
+                                                    <small>
+                                                    <span><a href="#">like</a></span>    <span><a href="#">comment</a></span>
+                                                  </small>
+                                                  </div>
+                                              </div>
+                                            </div>
+                                            <div class="media">
+                                             <div class="media-left">
+                                               <a href="#">
+                                                 <img class="media-object" src="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-9/16266138_1860280714216381_9018385102950334984_n.jpg?oh=0390678e9a46a2dea887473bab687ade&oe=59C313F9" width="32" height="32">
+                                               </a>
+                                              </div>
+                                             <div class="media-body">
+                                               <!-- <h4 class="media-heading">Pooja Singh</h4> -->
+                                               <p class= "comment-correct"><span><a href="#">sukrity</a></span> bob rocks</p>
+                                                 <div>
+                                                   <small>
+                                                   <span><a href="#">like</a></span>    <span><a href="#">comment</a></span>
+                                                 </small>
+                                                 </div>
+                                             </div>
+                                           </div><input placeholder="write a comment..." style="width:100%;margin-top:15px;">
+                                          </div>
+
+                                      </div>
+                                      <!-- second post -->
+                                              <div class="panel panel-default">
+                                                  <div class="panel-heading">
+                                                    <!-- heading img -->
+                                                    <div class="media" style="margin-top:0px;">
+                                                     <div class="media-left">
+                                                       <a href="#">
+                                                         <img class="media-object" src="https://scontent.fdel8-1.fna.fbcdn.net/v/t31.0-8/14102900_1562593577381312_7572907460562118232_o.jpg?oh=97d9d121d2d982d941f084e119b87d2c&oe=59DC1353" height="32px" width="32px">
+                                                       </a>
+                                                      </div>
+                                                     <div class="media-body">
+                                                       <!-- <h4 class="media-heading">Pooja Singh</h4> -->
+                                                       <p class= "comment-correct"><span><a href="#">Sarthak Batra </a></span> shares a post</p>
+                                                         <div>
+                                                           <small>
+                                                           <span><a href="#">11 hrs . </a><span class="glyphicon glyphicon-globe"></span>
+
+                                                         </small>
+                                                         </div>
+                                                     </div>
+                                                   </div>
+
+
+
+                                                    </div>
+                                                    <div class="panel-body">
+                                                      <div>
+                                                        <h3 class="txt-post">Searching for new laptop online is basically forcing your current computer to dig its own grave</h3>
+                                                        <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>like</span>
+                                                        <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>comment</span>
+                                                      </div>
+                                                    </div>
+                                                      <div class="panel-footer">
+                                                      <!-- comments -->
+                                                      <div class="media">
+                                                      <div class="media-left">
+                                                       <a href="#">
+                                                         <img class="media-object" src="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-9/582036_286606534765750_2038457_n.jpg?oh=984d74474b2b7c85d3f807f007435285&oe=5A1116D6" width="32" height="32">
+                                                       </a>
+                                                      </div>
+                                                      <div class="media-body">
+                                                       <!-- <h4 class="media-heading">Pooja Singh</h4> -->
+                                                       <p class= "comment-correct"><span><a href="#">Pooja Singh</a></span>  yaa making sense</p>
+                                                         <div>
+                                                           <small>
+                                                           <span><a href="#">like</a></span>    <span><a href="#">comment</a></span>
+                                                         </small>
+                                                         </div>
+                                                      </div>
+                                                    </div><input placeholder="write a comment..." style="width:100%;margin-top:15px;">
+                                                  </div>
+
+                                               </div>
+                                              <!-- third post -->
+                                              <div class="panel panel-default">
+                                                  <div class="panel-heading">
+                                                      <!-- heading image 3 -->
+                                                      <div class="media" style="margin-top:0px;">
+                                                       <div class="media-left">
+                                                         <a href="#">
+                                                           <img class="media-object" src="https://scontent.fdel8-1.fna.fbcdn.net/v/t1.0-9/18951481_1488171324587691_828335578446386055_n.jpg?oh=fa51e090decd08916cea780dc030dc42&oe=59D44A52" height="32px" width="32px">
+                                                         </a>
+                                                        </div>
+                                                       <div class="media-body">
+                                                         <!-- <h4 class="media-heading">Pooja Singh</h4> -->
+                                                         <p class= "comment-correct"><span><a href="#">Puru Jain</a></span></p>
+                                                           <div>
+                                                             <small>
+                                                             <span><a href="#">24 hrs . </a><span class="glyphicon glyphicon-globe"></span>
+
+                                                           </small>
+                                                           </div>
+                                                       </div>
+                                                     </div>
+
+                                                    </div>
+                                                    <div class="panel-body">
+                                                      <div>
+                                                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                                            <!-- Indicators -->
+                                                            <ol class="carousel-indicators">
+                                                              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                                              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                                              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                                            </ol>
+
+                                                            <!-- Wrapper for slides -->
+                                                            <div class="carousel-inner" role="listbox">
+                                                              <!-- fisrt image -->
+                                                              <div class="item active">
+                                                                <img src="icons/space1.jpg" height="200" width="520">
+                                                              </div>
+                                                              <!-- second image -->
+                                                              <div class="item">
+                                                                <img src="icons/space2.jpg" height="200" width="520">
+                                                              </div>
+                                                              <!-- third image -->
+                                                              <div class="item">
+                                                                <img src="icons/space3.jpg" height="200" width="520">
+                                                              </div>
+                                                            </div>
+
+                                                            <!-- Controls -->
+                                                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                                              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                                              <span class="sr-only">Previous</span>
+                                                            </a>
+                                                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                                              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                                              <span class="sr-only">Next</span>
+                                                            </a>
+                                                          </div>
+                                                      </div>
+                                                      <div>
+                                                        <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>like</span>
+                                                        <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>comment</span>
+                                                      </div>
+                                                    </div>
+                                                    <!-- footer -->
+                                                      <div class="panel-footer">
+
+
+
+                                                                <div class="media">
+                                                                      <div class="media-left">
+                                                                       <a href="#">
+                                                                         <img class="media-object" src="https://scontent.fagr1-1.fna.fbcdn.net/v/t31.0-8/15418432_1275291705866633_2457366017704825239_o.jpg?oh=d8bf1862d737f8da40628075d2701986&oe=59D37B0E" width="32" height="32">
+                                                                       </a>
+                                                                      </div>
+                                                                    <div class="media-body">
+                                                                     <!-- <h4 class="media-heading">Pooja Singh</h4> -->
+                                                                     <p class= "comment-correct"><span><a href="#">Pooja Singh</a></span>    wow! this is  awesome</p>
+                                                                       <div>
+                                                                         <small>
+                                                                         <span><a href="#">like</a></span>    <span><a href="#">comment</a></span>
+                                                                       </small>
+                                                                       </div>
+                                                                    </div>
+                                                                </div><input placeholder="write a comment..." style="width:100%;margin-top:15px;">
+                                                      </div>
+                                               </div>
+                                                <!-- fourth post -->
+                                               <div class="panel panel-default">
+                                                    <div class="panel-heading">
+                                                      <!-- haeding image 1 -->
+                                                      <div class="media" style="margin-top:0px;">
+                                                       <div class="media-left">
+                                                         <a href="#">
+                                                           <img class="media-object" src="https://scontent.fdel8-1.fna.fbcdn.net/v/t31.0-8/17240462_1789134068080867_2007997251736705821_o.jpg?oh=3bac157343ca46fcdb2f3603e0d2dba3&oe=59CD5188" height="32px" width="32px">
+                                                         </a>
+                                                        </div>
+                                                       <div class="media-body">
+                                                         <!-- <h4 class="media-heading">Pooja Singh</h4> -->
+                                                         <p class= "comment-correct"><span><a href="#">Sakshi</a></span> shares a post</p>
+                                                           <div>
+                                                             <small>
+                                                             <span><a href="#"> 1 d . </a><span class="glyphicon glyphicon-globe"></span>
+
+                                                           </small>
+                                                           </div>
+                                                       </div>
+                                                     </div>
+
+                                                    </div>
+                                                     <div class="panel-body">
+                                                       <div class="image-post">
+                                                            <img src="https://www.classtools.net/FB/fbimages/a/alan_turing.jpg" class="img-responsive" width="500px">
+                                                          </div>
+                                                       <div>
+                                                         <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>like</span>
+                                                         <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>comment</span>
+                                                       </div>
+                                                     </div>
+                                                       <div class="panel-footer">
+                                                         <div class="media">
+                                                        <div class="media-left">
+                                                          <a href="#">
+                                                            <img class="media-object" src="https://scontent.fagr1-1.fna.fbcdn.net/v/t31.0-8/15418432_1275291705866633_2457366017704825239_o.jpg?oh=d8bf1862d737f8da40628075d2701986&oe=59D37B0E" width="32" height="32">
+                                                          </a>
+                                                         </div>
+                                                        <div class="media-body">
+                                                          <!-- <h4 class="media-heading">Pooja Singh</h4> -->
+                                                          <p class= "comment-correct"><span><a href="#">Pooja Singh</a></span>  hat's off to the legend</p>
+                                                            <div>
+                                                              <small>
+                                                              <span><a href="#">like</a></span>    <span><a href="#">comment</a></span>
+                                                            </small>
+                                                            </div>
+                                                        </div>
+                                                      </div>
+                                                      <div class="media">
+                                                       <div class="media-left">
+                                                         <a href="#">
+                                                           <img class="media-object" src="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-9/16266138_1860280714216381_9018385102950334984_n.jpg?oh=0390678e9a46a2dea887473bab687ade&oe=59C313F9" width="32" height="32">
+                                                         </a>
+                                                        </div>
+                                                       <div class="media-body">
+                                                         <!-- <h4 class="media-heading">Pooja Singh</h4> -->
+                                                         <p class= "comment-correct"><span><a href="#">sukrity</a></span>  enigma breaker</p>
+                                                           <div>
+                                                             <small>
+                                                             <span><a href="#">like</a></span>    <span><a href="#">comment</a></span>
+                                                           </small>
+                                                           </div>
+                                                       </div>
+                                                     </div><input placeholder="write a comment..." style="width:100%;margin-top:15px;">
+                                                    </div>
+
+                                                </div>
+                                                <!-- fourth post -->
+                                                <div class="panel panel-default">
+                                                     <div class="panel-heading">
+                                                       <!-- haeding image 1 -->
+                                                       <div class="media" style="margin-top:0px;">
+                                                        <div class="media-left">
+                                                          <a href="#">
+                                                            <img class="media-object" src="icons/bal.jpg" height="32px" width="32px">
+                                                          </a>
+                                                         </div>
+                                                        <div class="media-body">
+                                                          <!-- <h4 class="media-heading">Pooja Singh</h4> -->
+                                                          <p class= "comment-correct"><span><a href="#">Musk doza</a></span></p>
+                                                            <div>
+                                                              <small>
+                                                              <span><a href="#">4 hrs . </a><span class="glyphicon glyphicon-globe"></span>
+
+                                                            </small>
+                                                            </div>
+                                                        </div>
+                                                      </div>
+
+                                                     </div>
+                                                      <div class="panel-body">
+                                                        <div>
+                                                             <blockquote>
+                                                               <p>Look at the sky. We are not alone. The whole universe is friendly to us and conspires only to give the best to those who dream and work.</p>
+                                                               <footer> A.P.J Abdul Kalam </footer>
+                                                               </blockquote>
+                                                           </div>
+                                                        <div>
+                                                          <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>like</span>
+                                                          <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>comment</span>
+                                                        </div>
+                                                      </div>
+                                                        <div class="panel-footer">
+                                                          <div class="media">
+                                                         <div class="media-left">
+                                                           <a href="#">
+                                                             <img class="media-object" src="https://scontent.fagr1-1.fna.fbcdn.net/v/t31.0-8/15418432_1275291705866633_2457366017704825239_o.jpg?oh=d8bf1862d737f8da40628075d2701986&oe=59D37B0E" width="32" height="32">
+                                                           </a>
+                                                          </div>
+                                                         <div class="media-body">
+                                                           <!-- <h4 class="media-heading">Pooja Singh</h4> -->
+                                                           <p class= "comment-correct"><span><a href="#">Pooja Singh</a></span> we miss u sir </p>
+                                                             <div>
+                                                               <small>
+                                                               <span><a href="#">like</a></span>    <span><a href="#">comment</a></span>
+                                                             </small>
+                                                             </div>
+                                                         </div>
+                                                       </div>
+                                                       <div class="media">
+                                                        <div class="media-left">
+                                                          <a href="#">
+                                                            <img class="media-object" src="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-9/16266138_1860280714216381_9018385102950334984_n.jpg?oh=0390678e9a46a2dea887473bab687ade&oe=59C313F9" width="32" height="32">
+                                                          </a>
+                                                         </div>
+                                                        <div class="media-body">
+                                                          <!-- <h4 class="media-heading">Pooja Singh</h4> -->
+                                                          <p class= "comment-correct"><span><a href="#">sukrity</a></span> learning</p>
+                                                            <div>
+                                                              <small>
+                                                              <span><a href="#">like</a></span>    <span><a href="#">comment</a></span>
+                                                            </small>
+                                                            </div>
+                                                        </div>
+                                                      </div><input placeholder="write a comment..." style="width:100%;margin-top:15px;">
+                                                     </div>
+
+                                                 </div>
+                                              <!-- load button -->
+                                               <button type="button" id="myButton" data-loading-text="Loading..." class="btn btn-primary" autocomplete="off" style="margin-left:0px; width:100%;padding-top:3px;">
+                                                  Load More
+                                                </button>
+
+                </div>
+            </div>
+<!-- third coloum -->
+          <div class=" hidden-xs hidden-sm col-md-3"><div id="sidebar">
+
+                            <ul class="list-group">
+                              <li class="list-group-item list-group-item-success" style="border-top:1px solid #e7e7e7;"><span><img src="icons/cake.png" height="22px" width="20px"></span><span><b><a href="#" style="padding-left:5px;">chandi's</a></b><span> birthday is today</span></span></li>
+                            </ul>
+                            <ul class="list-group">
+                              <li class="list-group-item list-group-item-success"><span><a href="#">Trending</a>
+                                <span><img src="icons/135.png" height="22px" width="20px" style="margin-left:30px;"></span>
+                                <span><img src="icons/poly.png" height="22px" width="20px" style="margin-left:10px;"></span>
+                                <span><img src="icons/chemistry.png" height="22px" width="20px" style="margin-left:10px;"></span>
+                                <span><img src="icons/ftbl.png" height="22px" width="20px" style="margin-left:10px;"></span>
+                              </span>
+                            </li>
+                              <li class="list-group-item list-group-item-success" style="border-bottom:none; border-top:none"><a href="#">American health care act</a><div style="color:black; text-align:justify;"><small>The American Health Care Act of 2017 (H.R. 1628) (renamed in the draft Senate version as the Better Care Reconciliation Act of 2017), ...</small></div></li>
+                              <li class="list-group-item list-group-item-success" style="border-bottom:none; border-top:none"><a href="#">Ram Nath Kovind</a><div style="color:black; text-align:justify;"><small>Presidential Election 2017 Live: Ram Nath Kovind Files Nomination For… ‑ ndtv.com </small></div></li>
+                              </ul>
+                              <ul class="list-group">
+                                <li class="list-group-item list-group-item-success"><span><b>People you may know</b></span><a href="#"><small style= "margin-left:35px;">see all..</small></a></li>
+                                <li class="list-group-item list-group-item-success">
+                                  <div class="media">
+                                   <div class="media-left">
+                                     <a href="#">
+                                       <img class="media-object" src="icons/bal.jpg" height="32px" width="32px">
+                                     </a>
+                                    </div>
+                                   <div class="media-body">
+                                     <!-- <h4 class="media-heading">Pooja Singh</h4> -->
+                                     <p class= "comment-correct"><span><a href="#">Musk doza</a></span></p>
+                                       <div>
+                                         <small>
+                                         <span><a href="#">Michel </a>is mutual friend</span>
+
+                                       </small>
+                                       </div>
+                                   </div>
+                                 </div>
+                               <button type="button" class="btn btn-primary" style="margin-left:40px;"><span class="glyphicon glyphicon-user" aria-hidden="true" style="padding-right:10px;"></span>Add Friend</button>
+                                </li>
+
+                                <li class="list-group-item list-group-item-success">
+                                  <div class="media">
+                                   <div class="media-left">
+                                     <a href="#">
+                                       <img class="media-object" src="icons/girl.jpg" height="32px" width="32px">
+                                     </a>
+                                    </div>
+                                   <div class="media-body">
+                                     <!-- <h4 class="media-heading">Pooja Singh</h4> -->
+                                     <p class= "comment-correct"><span><a href="#"> Mark mellon</a></span></p>
+                                       <div>
+                                         <small>
+                                         <span><a href="#">Hema</a> is mutual friend</span>
+
+                                       </small>
+                                       </div>
+                                   </div>
+                                 </div>
+                               <button type="button" class="btn btn-primary" style="margin-left:40px;"><span class="glyphicon glyphicon-user" aria-hidden="true" style="padding-right:10px;"></span>Add Friend</button>
+                                </li>
+
+                                <li class="list-group-item list-group-item-success">
+                                  <div class="media">
+                                   <div class="media-left">
+                                     <a href="#">
+                                       <img class="media-object" src="icons/rose.jpg" height="32px" width="32px">
+                                     </a>
+                                    </div>
+                                   <div class="media-body">
+                                     <!-- <h4 class="media-heading">Pooja Singh</h4> -->
+                                     <p class= "comment-correct"><span><a href="#"> Dove kamil</a></span></p>
+                                       <div>
+                                         <small>
+                                         <span><a href="#">Lovely</a> is mutual friend</span>
+
+                                       </small>
+                                       </div>
+                                   </div>
+                                 </div>
+                               <button type="button" class="btn btn-primary" style="margin-left:40px;"><span class="glyphicon glyphicon-user" aria-hidden="true" style="padding-right:10px;"></span>Add Friend</button>
+                                </li>
+
+                              </ul>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--footer starts here-->
+      <footer>
+          <ul class="nav nav-pills pull-right ">
+             <li role="presentation"><a href="#">About Us</a></li>
+              <li role="presentation"><a href="#top">Goto Top</a></li>
+              <li role="presentation"><a href="#">Home</a></li>
+              <li role="presentation"><a href="#">Privacy</a></li>
+               <li role="presentation"><a href="#">Advertising</a></li>
+                <li role="presentation"><a href="#">cookies</a></li>
+                 <li role="presentation"><a href="#">Ad-cookies</a></li>
+             </ul>
+      </footer>
+        <!--footer ends here-->
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+
+    </script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+
+
+
+
+    <script src="js/bootstrap.min.js">
+    $('#myButton').on('click', function () {
+   var $btn = $(this).button('loading')
+   // business logic...
+   $btn.button('reset')
+ })
+
+    </script>
+  </body>
+</html>
